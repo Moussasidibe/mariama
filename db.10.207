@@ -1,0 +1,13 @@
+;-------Mariama-kandee.local.master-----------
+$TTL 604800;
+@ IN SOA debian.Mariama-kandee.local. mariama-kandee.iutbeziers.fr. (
+               1 ; Serial
+               3600 ; Refresh(1h)
+               3600 ; Retry(1h)
+               3600000 ; Expire(41j)
+               86400 ) ; Minimum(24h)
+@    IN NS debian.Mariama-kandee.local.
+debian.Mariama-kandee.local. IN      A        172.17.0.2
+$ORIGIN 31.4.207.10.in-addr.arpa.
+@   IN PTR debian.Mariama-kandee.local.
+

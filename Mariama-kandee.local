@@ -1,0 +1,15 @@
+ 
+;-----------Mariama-kandee.local.master------------
+$TTL 1h;
+@ IN SOA debian.Mariama-kandee.local. Mariama-kandee.iutbeziers.fr. (
+  2015091301 ; Serial
+  3600 ; Refresh(1h)
+  3600 ; Retry(1h)
+  3600000 ; Expire(41j)
+  86400 ) ; Minimum(24h)
+$ORIGIN Mariama-kandee.local.
+@       IN      NS debian
+@       IN      MX     0          mail.Mariama-kandee.local.
+debian IN A 10.207.4.31
+mail IN A 10.207.4.31
+
